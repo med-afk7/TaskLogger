@@ -24,12 +24,18 @@ const addTask =  async (req , res) =>{
 
 }
 
+const editTask =  async (req,res ) => {
+    const {Gym,Steps, Calories , Sleep , Water} = req.body ;
+ 
+}
+
 
 
 
 module.exports=
 {
 allTask,
-addTask
+addTask, 
+editTask
 
 }
